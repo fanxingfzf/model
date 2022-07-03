@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: model3
+  profiles:
+    active: dev
+
+mybatis-plus:
+  #xml文件位置
+  mapper-locations:
+    classpath: com/fzf/msp//mapper/xml/*.xml
